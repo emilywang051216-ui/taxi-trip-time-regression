@@ -51,11 +51,8 @@ The project workflow includes:
 taxi-trip-time-regression/
 ├── README.md
 ├── taxi_trip_time_regression.ipynb
-├── requirements.txt
-├── .gitignore
-├── data/
-│   └── README.md
-└── results/
+├── train_lightgbm.py
+└── requirements.txt
 ```
 
 ## Dataset
@@ -145,7 +142,7 @@ Early stopping is used to select the number of boosting rounds. Final prediction
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/6hliu/taxi-trip-time-regression.git
+git clone https://github.com/emilywang051216-ui/taxi-trip-time-regression.git
 cd taxi-trip-time-regression
 ```
 
@@ -233,4 +230,5 @@ The final LightGBM score should be added after the completed submission result i
 
 ## Author
 
-Haoran Liu
+Yiqing Wang 
+The University of Melbourne
